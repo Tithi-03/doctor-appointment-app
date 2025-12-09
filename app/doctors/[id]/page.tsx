@@ -11,7 +11,7 @@ export default function DoctorDetailsPage({ params }: { params: Promise<{ id: st
   const allDoctors = [
     {
       id: "1",
-      name: "Dr. Sarah Johnson",
+      name: "Dr. Sarah jjJohnson",
       specialty: "Cardiologist",
       experience: 12,
       rating: 4.8,
