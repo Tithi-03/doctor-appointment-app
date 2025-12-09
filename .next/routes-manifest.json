@@ -1,0 +1,173 @@
+{
+  "version": 3,
+  "pages404": true,
+  "caseSensitive": false,
+  "basePath": "",
+  "redirects": [
+    {
+      "source": "/:path+/",
+      "destination": "/:path+",
+      "internal": true,
+      "priority": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
+    }
+  ],
+  "headers": [],
+  "rewrites": {
+    "beforeFiles": [],
+    "afterFiles": [],
+    "fallback": []
+  },
+  "dynamicRoutes": [
+    {
+      "page": "/doctors/[id]",
+      "regex": "^/doctors/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/doctors/(?<nxtPid>[^/]+?)(?:/)?$"
+    }
+  ],
+  "staticRoutes": [
+    {
+      "page": "/",
+      "regex": "^/(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/(?:/)?$"
+    },
+    {
+      "page": "/_global-error",
+      "regex": "^/_global\\-error(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_global\\-error(?:/)?$"
+    },
+    {
+      "page": "/_not-found",
+      "regex": "^/_not\\-found(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_not\\-found(?:/)?$"
+    },
+    {
+      "page": "/auth/login",
+      "regex": "^/auth/login(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/auth/login(?:/)?$"
+    },
+    {
+      "page": "/auth/register",
+      "regex": "^/auth/register(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/auth/register(?:/)?$"
+    },
+    {
+      "page": "/auth/reset-password",
+      "regex": "^/auth/reset\\-password(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/auth/reset\\-password(?:/)?$"
+    },
+    {
+      "page": "/dashboard/admin",
+      "regex": "^/dashboard/admin(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/admin(?:/)?$"
+    },
+    {
+      "page": "/dashboard/admin/doctors",
+      "regex": "^/dashboard/admin/doctors(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/admin/doctors(?:/)?$"
+    },
+    {
+      "page": "/dashboard/admin/patients",
+      "regex": "^/dashboard/admin/patients(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/admin/patients(?:/)?$"
+    },
+    {
+      "page": "/dashboard/admin/reports",
+      "regex": "^/dashboard/admin/reports(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/admin/reports(?:/)?$"
+    },
+    {
+      "page": "/dashboard/admin/userdoctor",
+      "regex": "^/dashboard/admin/userdoctor(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/admin/userdoctor(?:/)?$"
+    },
+    {
+      "page": "/dashboard/doctor",
+      "regex": "^/dashboard/doctor(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/doctor(?:/)?$"
+    },
+    {
+      "page": "/dashboard/doctor/appointments",
+      "regex": "^/dashboard/doctor/appointments(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/doctor/appointments(?:/)?$"
+    },
+    {
+      "page": "/dashboard/doctor/profile",
+      "regex": "^/dashboard/doctor/profile(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/doctor/profile(?:/)?$"
+    },
+    {
+      "page": "/dashboard/doctor/schedule",
+      "regex": "^/dashboard/doctor/schedule(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/doctor/schedule(?:/)?$"
+    },
+    {
+      "page": "/dashboard/patient",
+      "regex": "^/dashboard/patient(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/patient(?:/)?$"
+    },
+    {
+      "page": "/dashboard/patient/appointments",
+      "regex": "^/dashboard/patient/appointments(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/patient/appointments(?:/)?$"
+    },
+    {
+      "page": "/dashboard/patient/history",
+      "regex": "^/dashboard/patient/history(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/patient/history(?:/)?$"
+    },
+    {
+      "page": "/dashboard/patient/search-doctor",
+      "regex": "^/dashboard/patient/search\\-doctor(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/patient/search\\-doctor(?:/)?$"
+    },
+    {
+      "page": "/doctors",
+      "regex": "^/doctors(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/doctors(?:/)?$"
+    }
+  ],
+  "dataRoutes": [],
+  "rsc": {
+    "header": "rsc",
+    "varyHeader": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+    "prefetchHeader": "next-router-prefetch",
+    "didPostponeHeader": "x-nextjs-postponed",
+    "contentTypeHeader": "text/x-component",
+    "suffix": ".rsc",
+    "prefetchSuffix": ".prefetch.rsc",
+    "prefetchSegmentHeader": "next-router-segment-prefetch",
+    "prefetchSegmentSuffix": ".segment.rsc",
+    "prefetchSegmentDirSuffix": ".segments",
+    "clientParamParsing": false,
+    "dynamicRSCPrerender": false
+  },
+  "rewriteHeaders": {
+    "pathHeader": "x-nextjs-rewritten-path",
+    "queryHeader": "x-nextjs-rewritten-query"
+  }
+}

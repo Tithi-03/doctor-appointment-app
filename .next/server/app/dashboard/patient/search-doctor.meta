@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/dashboard/layout,_N_T_/dashboard/patient/layout,_N_T_/dashboard/patient/search-doctor/layout,_N_T_/dashboard/patient/search-doctor/page,_N_T_/dashboard/patient/search-doctor"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/dashboard/patient/search-doctor/__PAGE__",
+    "/dashboard/patient/search-doctor",
+    "/dashboard/patient",
+    "/dashboard",
+    "/_index",
+    "/_head"
+  ]
+}

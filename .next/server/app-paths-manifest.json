@@ -1,0 +1,23 @@
+{
+  "/_global-error/page": "app/_global-error/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/auth/login/page": "app/auth/login/page.js",
+  "/auth/register/page": "app/auth/register/page.js",
+  "/auth/reset-password/page": "app/auth/reset-password/page.js",
+  "/dashboard/admin/doctors/page": "app/dashboard/admin/doctors/page.js",
+  "/dashboard/admin/page": "app/dashboard/admin/page.js",
+  "/dashboard/admin/patients/page": "app/dashboard/admin/patients/page.js",
+  "/dashboard/admin/reports/page": "app/dashboard/admin/reports/page.js",
+  "/dashboard/admin/userdoctor/page": "app/dashboard/admin/userdoctor/page.js",
+  "/dashboard/doctor/appointments/page": "app/dashboard/doctor/appointments/page.js",
+  "/dashboard/doctor/page": "app/dashboard/doctor/page.js",
+  "/dashboard/doctor/profile/page": "app/dashboard/doctor/profile/page.js",
+  "/dashboard/doctor/schedule/page": "app/dashboard/doctor/schedule/page.js",
+  "/dashboard/patient/appointments/page": "app/dashboard/patient/appointments/page.js",
+  "/dashboard/patient/history/page": "app/dashboard/patient/history/page.js",
+  "/dashboard/patient/page": "app/dashboard/patient/page.js",
+  "/dashboard/patient/search-doctor/page": "app/dashboard/patient/search-doctor/page.js",
+  "/doctors/[id]/page": "app/doctors/[id]/page.js",
+  "/doctors/page": "app/doctors/page.js",
+  "/page": "app/page.js"
+}
